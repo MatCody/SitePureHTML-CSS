@@ -1,0 +1,157 @@
+footer {
+  text-align: center;
+  color: white;
+  font-family: 'Poiret One';
+  background-color: black;
+  font-size: 20px;
+}
+
+header {
+  height: 150px;
+}
+
+#background {
+  background-image: url("background.jpg");
+  border: 2px solid black;
+}
+
+#logo {
+  background-image: url("logo.png");
+  background-repeat: no-repeat;
+  padding: 50px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+#menu {
+  background-color: #083045;
+}
+
+#menu li a{
+  color: white;
+}
+
+#menu li a:hover{
+  color: #43ABC8;
+}
+
+.glyphicon {
+  font-size: 18px;
+  margin-top: -4px;
+  color: white;
+  margin: 1px;
+}
+
+ #home {
+  color: white;
+  margin:20px;
+  border-radius: 50px;
+  background-color: black;
+  font-family: 'Saira';
+  height: 900px;
+ }
+
+header #nome-empresa {
+  font-family: 'Poiret One';
+  font-size: 60px;
+  color: black;
+}
+
+header #slogan {
+   color:#0D3C55;
+   text-align: center;
+ }
+
+ article {
+   background-color: #083045;
+ }
+
+img {
+  width: 450px;
+  height: 500px;
+  border-radius: 30px;
+
+}
+
+audio {
+  background-color: white;
+  margin-left: 650px;
+}
+
+section {
+   text-align: center;
+   padding: 100px;
+ }
+
+
+ img {
+   height: 200px;
+   width: 280px;
+   border-radius: 50px;
+ }
+
+ .produtos {
+   margin: 20px;
+   text-align: center;
+   font-family: 'Orbitron'
+ }
+
+ .navbar {
+   margin-bottom: 0;
+   border-radius: 0;
+ }
+
+ form {
+   margin: 12px;
+ }
+
+ #home-contato {
+   border-radius: 6px;
+   color: white;
+   margin:20px;
+   background-color: black;
+   font-family: 'Saira';
+   height: 800px;
+ }
+
+iframe {
+   border: 1px groove white;
+ }
+
+ blockquote
+ {
+   font-family: 'Poiret One';
+ }
+
+ #home-cadastro {
+   border-radius: 6px;
+   color: white;
+   margin:20px;
+   background-color: black;
+   font-family: 'Saira';
+   height: 800px;
+ }
+
+#botão {
+  margin-top:50px;
+}
+
+#banner {
+  height: 100px
+}
+
+.thumbnail {
+  border-radius: 20px;
+  height: 280px;
+  margin-top: 40px;
+}
+
+h3 {
+  color: black;
+}
+
+#footer {
+  width: 2000px;
+  margin-left: -80px;
+
+}

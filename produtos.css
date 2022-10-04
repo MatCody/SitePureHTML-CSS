@@ -1,0 +1,65 @@
+footer {
+  text-align: center;
+}
+
+header {
+  height: 150px;
+}
+
+#background {
+  background-image: url("background.jpg");
+}
+
+#logo {
+  background-image: url("logo.png");
+  background-repeat: no-repeat;
+  padding: 50px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+#menu {
+  background-color: #083045;
+}
+
+#menu li a{
+  color: white;
+}
+
+#menu li a:hover{
+  color: #43ABC8;
+}
+
+header #nome-empresa {
+  font-family: 'Poiret One';
+  font-size: 60px;
+
+}
+header #slogan {
+   color:#0D3C55;
+   text-align: center;
+ }
+
+ #home {
+  color: white;
+  margin: 20px;
+  border-radius: 20px;
+  background-color: black;
+  font-family: 'Saira'
+ }
+
+ img {
+   height: 200px;
+   width: 280px;
+   border-radius: 50px;
+ }
+
+ .produtos {
+   margin: 20px;
+   text-align: center;
+   font-family: 'Orbitron'
+ }
+
+ .navbar {
+   margin-bottom: 0;
+ }

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Saira" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+  <link rel="stylesheet" href="estilo.css">
+  <title></title>
+</head>
+<body>
+
+  <header>
+    <div id="logo" class="col-md-2"></div>
+
+    <div class="col-md-3 col-xs-12">
+      <h1 id="nome-empresa">Vision Tech</h1>
+      <h4 id="slogan">Sua visão, nosso futuro</h4>
+    </div>
+
+    </header>
+    <nav class="navbar navbar-inverse">
+      <div id="menu" class="container-fluid">
+
+        <ul class="nav navbar-nav col-md-12">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="quem-somos.html">Quem Somos</a></li>
+          <li><a href="produtos.html">Produtos</a></li>
+          <li class="active"><a href="cadastro.html">Cadastrar</a></li>
+          <li><a href="contato.html">Contato</a></li>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="index.html"><span class="glyphicon glyphicon-home"></a></span></li>
+          </ul>
+        </ul>
+      </div>
+    </nav>
+
+    <div id="background" class="container-fluid">
+      <div id="home-cadastro">
+
+        <form>
+          <div class="col-md-6">
+          <h2>Cliente</h2><br>
+          <div class="form-group">
+            <label for="nome">Nome:</label>
+            <input type="name" class="form-control" id="name" required>
+          </div>
+          <div class="form-group">
+            <label for="CPF">CPF:</label>
+            <input type="number" class="form-control" id="cpf" required>
+          </div>
+          <div class="form-group">
+            <label for="endereço">Endereço:</label>
+            <textarea class="form-control" rows="1" id="endereço" required></textarea>
+          </div>
+          <div class="form-group">
+            <label for="estado">Estado:</label>
+            <select class="estado" name="">
+              <option value="">Acre</option>
+              <option value="">Alagoas</option>
+              <option value="">Amapá</option>
+              <option value="">Amazonas</option>
+              <option value="">Bahia</option>
+              <option value="">Ceará</option>
+              <option value="">Distrito Federal</option>
+              <option value="">Espírito Santo</option>
+              <option value="">Góias</option>
+              <option value="">Maranhão</option>
+              <option value="">Mato Grosso</option>
+              <option value="">Mato Grosso do Sul</option>
+              <option value="">Minas Gerais</option>
+              <option value="">Pará</option>
+              <option value="">Paraíba</option>
+              <option value="">Paraná</option>
+              <option value="">Pernambuco</option>
+              <option value="">Piauí</option>
+              <option value="">Rio de Janeiro</option>
+              <option value="">Rio Grande do Norte</option>
+              <option value="">Rio Grande do Sul</option>
+              <option value="">Rondônia</option>
+              <option value="">Roraima</option>
+              <option value="">Santa Catarina</option>
+              <option value="">São Paulo</option>
+              <option value="">Sergipe</option>
+              <option value="">Tocantins</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="telefone">Telefone:</label>
+            <input type="tel" name="" value="">
+          </div>
+          <div class="form-group">
+            <label for="e-mail">E-mail:</label>
+            <input type="email" name="" value="" required>
+          </div>
+          <div class="form-group">
+            <label for="data">Data de Nascimento:</label>
+            <input type="date" name="" value="">
+          </div>
+          </div>
+          <div class="col-md-6">
+            <h2>Compra</h2><br><br>
+          <div class="form-group">
+            <label for="">Produtos:</label>
+            <select class="" name="" required>
+              <option value="">Computadores</option>
+              <option value="">VR(Virtual Reality)</option>
+              <option value="">Smarthphones</option>
+              <option value="">Consoles</option>
+              <option value="">Acessórios</option>
+              <option value="">Games</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="">Quantidade:</label>
+            <input type="number" name="" value="" required>
+          </div>
+          <div class="form-group">
+            <label for="">Cartão de Crédito:</label>
+            <select class="" name="">
+              <option value="">Master</option>
+              <option value="">Visa</option>
+            </select>
+          </div>
+
+          </div>
+        </form>
+
+        <div id="botão" class="row col-md-12 text-center">
+          <button type="reset" class="btn btn-danger">Cancelar</button>
+          <button type="submit" class="btn btn-success">Enviar por Correio Comum</button>
+          <button type="submit" class="btn btn-info">Enviar por Sedex</button>
+        </div>
+
+      </div>
+    </div>
+
+
+
+    <img id="footer" src="imagens/footer.jpg">
+    <footer class="container-fluid">
+    © Copyright 2017, Vision Tech. All rights reserved
+    </footer>
+
+  </body>
+  </html>
